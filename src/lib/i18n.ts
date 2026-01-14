@@ -41,17 +41,17 @@ export const translations = {
                 {
                     number: "01",
                     title: "Keşif",
-                    description: "Önce mülkü ve çevresini inceliyorum. En iyi açıları ve günün hangi saatinin en iyi ışığı sunduğunu belirliyorum.",
+                    description: "Önce mülkü ve çevresini inceliyorum. En iyi açıları ve günün hangi saatinin en iyi ışığı sunduğunu belirliyorum."
                 },
                 {
                     number: "02",
                     title: "Çekim",
-                    description: "Sessiz ve hızlı. Mülk sahiplerini rahatsız etmeden, planlanan kareleri ve video akışlarını yakalıyorum.",
+                    description: "Sessiz ve hızlı. Mülk sahiplerini rahatsız etmeden, planlanan kareleri ve video akışlarını yakalıyorum."
                 },
                 {
                     number: "03",
                     title: "Teslim",
-                    description: "Çekimden sonraki 24 saat içinde, renk düzenlemesi yapılmış ve paylaşıma hazır dosyaları dijital olarak teslim ediyorum.",
+                    description: "Çekim sonrası renk düzenlemesi yapılmış, paylaşıma hazır dosyaları dijital olarak teslim ediyorum."
                 }
             ]
         },
@@ -61,7 +61,7 @@ export const translations = {
             packages: {
                 photo: {
                     title: "Fotoğraf Paketi",
-                    features: ["10 dış mekan drone fotoğrafı", "Temiz düzenleme, kullanıma hazır", "Hızlı teslimat"],
+                    features: ["10 dış mekan drone fotoğrafı", "Temiz düzenleme, kullanıma hazır", "24 saatte teslim"],
                     cta: "Seç",
                 },
                 video: {
@@ -147,17 +147,17 @@ export const translations = {
                 {
                     number: "01",
                     title: "Scout",
-                    description: "I review the property and surroundings to find the best angles and the perfect light time.",
+                    description: "I review the property and surroundings to find the best angles and the perfect light time."
                 },
                 {
                     number: "02",
                     title: "Capture",
-                    description: "Quiet and efficient. I capture the planned shots without disturbing the residents or neighbors.",
+                    description: "Quiet and efficient. I capture the planned shots without disturbing the residents or neighbors."
                 },
                 {
                     number: "03",
                     title: "Deliver",
-                    description: "Within 24 hours (often less), you receive color-graded, ready-to-post visuals.",
+                    description: "After the shoot, I deliver digitally color-graded files that are fully prepared and ready for sharing."
                 }
             ]
         },
@@ -167,7 +167,7 @@ export const translations = {
             packages: {
                 photo: {
                     title: "Photo Package",
-                    features: ["10 exterior drone photos", "Clean edits, ready to use", "Fast turnaround"],
+                    features: ["10 exterior drone photos", "Clean edits, ready to use", "24-hour turnaround"],
                     cta: "Select",
                 },
                 video: {
