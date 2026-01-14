@@ -41,17 +41,17 @@ export const translations = {
                 {
                     number: "01",
                     title: "Keşif",
-                    description: "Önce mülkü ve çevresini inceliyorum. En iyi açıları ve günün hangi saatinin en iyi ışığı sunduğunu belirliyorum."
+                    description: "Önce mülkü ve çevresini inceliyorum. En iyi açıları ve günün hangi saatinin en iyi ışığı sunduğunu belirliyorum.",
                 },
                 {
                     number: "02",
                     title: "Çekim",
-                    description: "Sessiz ve hızlı. Mülk sahiplerini rahatsız etmeden, planlanan kareleri ve video akışlarını yakalıyorum."
+                    description: "Sessiz ve hızlı. Mülk sahiplerini rahatsız etmeden, planlanan kareleri ve video akışlarını yakalıyorum.",
                 },
                 {
                     number: "03",
                     title: "Teslim",
-                    description: "Çekimden sonraki 24 saat içinde, renk düzenlemesi yapılmış ve paylaşıma hazır dosyaları dijital olarak teslim ediyorum."
+                    description: "Çekimden sonraki 24 saat içinde, renk düzenlemesi yapılmış ve paylaşıma hazır dosyaları dijital olarak teslim ediyorum.",
                 }
             ]
         },
@@ -147,17 +147,17 @@ export const translations = {
                 {
                     number: "01",
                     title: "Scout",
-                    description: "I review the property and surroundings to find the best angles and the perfect light time."
+                    description: "I review the property and surroundings to find the best angles and the perfect light time.",
                 },
                 {
                     number: "02",
                     title: "Capture",
-                    description: "Quiet and efficient. I capture the planned shots without disturbing the residents or neighbors."
+                    description: "Quiet and efficient. I capture the planned shots without disturbing the residents or neighbors.",
                 },
                 {
                     number: "03",
                     title: "Deliver",
-                    description: "Within 24 hours (often less), you receive color-graded, ready-to-post visuals."
+                    description: "Within 24 hours (often less), you receive color-graded, ready-to-post visuals.",
                 }
             ]
         },
@@ -165,51 +165,52 @@ export const translations = {
             title: "Simple, Honest Pricing",
             subtitle: "No hidden fees. If a place is special, we talk first.",
             packages: {
-                title: "Photo Package",
-                features: ["10 exterior drone photos", "Clean edits, ready to use", "Fast turnaround"],
-                cta: "Select",
+                photo: {
+                    title: "Photo Package",
+                    features: ["10 exterior drone photos", "Clean edits, ready to use", "Fast turnaround"],
+                    cta: "Select",
+                },
+                video: {
+                    title: "Video Package",
+                    features: ["1 exterior drone video", "30–60 seconds duration", "Smooth, cinematic motion"],
+                    cta: "Select",
+                },
+                bundle: {
+                    badge: "Most Popular",
+                    title: "Bundle",
+                    features: ["All Photos + Video", "Complete coverage", "Best value for single properties"],
+                    cta: "Select Bundle",
+                },
             },
-            video: {
-                title: "Video Package",
-                features: ["1 exterior drone video", "30–60 seconds duration", "Smooth, cinematic motion"],
-                cta: "Select",
-            },
-            bundle: {
-                badge: "Most Popular",
-                title: "Bundle",
-                features: ["All Photos + Video", "Complete coverage", "Best value for single properties"],
-                cta: "Select Bundle",
+            monthly: {
+                title: "Monthly Plans for Agents",
+                starter: {
+                    title: "Starter Plan",
+                    subtitle: "Up to 4 properties. Photo + Video for each.",
+                },
+                pro: {
+                    title: "Pro Plan",
+                    subtitle: "Up to 8 properties. Photo + Video for each.",
+                },
+                custom: {
+                    title: "Custom Plan",
+                    subtitle: "For higher volume or long-term partnerships.",
+                    link: "Let's discuss",
+                },
             },
         },
-        monthly: {
-            title: "Monthly Plans for Agents",
-            starter: {
-                title: "Starter Plan",
-                subtitle: "Up to 4 properties. Photo + Video for each.",
-            },
-            pro: {
-                title: "Pro Plan",
-                subtitle: "Up to 8 properties. Photo + Video for each.",
-            },
-            custom: {
-                title: "Custom Plan",
-                subtitle: "For higher volume or long-term partnerships.",
-                link: "Let's discuss",
-            },
+        about: {
+            title: "Behind the Lens",
+            p1: "I’m not a production house. I’m a solo creator who loves the quiet geometry of architecture from above.",
+            p2: "My goal isn't to make a property look like a hyper-real advertisement. It's to capture the genuine feeling of the place—the way the light hits the roof in the afternoon, the space around the home.",
+            p3: "When you work with me, you get transparency, respect for your time, and visuals that feel true.",
+        },
+        contact: {
+            title: "Let's connect.",
+            subtitle: "Send me the location. I'll take a look and let you know what's possible.",
+            whatsapp: "Chat on WhatsApp",
+            telegram: "Chat on Telegram",
+            responseTime: "I usually reply within an hour.",
         },
     },
-    about: {
-        title: "Behind the Lens",
-        p1: "I’m not a production house. I’m a solo creator who loves the quiet geometry of architecture from above.",
-        p2: "My goal isn't to make a property look like a hyper-real advertisement. It's to capture the genuine feeling of the place—the way the light hits the roof in the afternoon, the space around the home.",
-        p3: "When you work with me, you get transparency, respect for your time, and visuals that feel true.",
-    },
-    contact: {
-        title: "Let's connect.",
-        subtitle: "Send me the location. I'll take a look and let you know what's possible.",
-        whatsapp: "Chat on WhatsApp",
-        telegram: "Chat on Telegram",
-        responseTime: "I usually reply within an hour.",
-    },
-},
 };
