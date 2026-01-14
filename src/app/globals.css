@@ -1,42 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Core Palette - Raw, Dark, Modern (Forced Dark Mode) */
+  --bg-primary: #0a0a0a;
+  /* Almost Black */
+  --bg-secondary: #171717;
+  /* Dark Grey */
+  --text-primary: #ededed;
+  /* Off-white */
+  --text-secondary: #888888;
+  /* Muted Grey */
+  --accent: #d4d4d8;
+  /* Light Grey/Zinc 300 Accent */
+  --accent-light: #3f3f46;
+  /* Zinc 700 */
+
+  /* Spacing System */
+  --space-xs: 0.5rem;
+  /* 8px */
+  --space-sm: 1rem;
+  /* 16px */
+  --space-md: 2rem;
+  /* 32px */
+  --space-lg: 4rem;
+  /* 64px */
+  --space-xl: 8rem;
+  /* 128px */
+
+  /* Animation */
+  --ease-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-normal: 0.4s;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-family: var(--font-inter), sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-primary);
 }
 
-html,
 body {
-  max-width: 100vw;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-outfit), sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Utilities */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.section-padding {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
   }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
